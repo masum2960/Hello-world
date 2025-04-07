@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TakeCare – Wellbeing Made Simple</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <table width="100%" class="header-table py-2 bg-light border-bottom">
+    <tr>
+      <td width="15%" align="center">
+        <button class="btn btn-primary" onclick="location.href='registration.html'">Register</button>
+        <button class="btn btn-success" onclick="location.href='login.html'">Log In</button>
+      </td>
+      <td width="30%" align="right">
+        <img src=c:\Users\borka\OneDrive - Ulster University\Client side development\demo\takecare_logo.jpg width="120" alt="TakeCare">
+      </td>
+      <td width="30%" class="brand-info" align="left">
+        <h1><b>TakeCare</b></h1>
+        <h5>Wellbeing Made Simple</h5>
+      </td>
+      <td width="20%" align="center">
+        <form class="d-flex justify-content-center" action="#" method="POST">
+          <input class="form-control" type="search" placeholder="Search TakeCare Features">
+          <button class="btn btn-outline-primary ms-2" type="submit">Search</button>
+        </form>
+      </td>
+      <td width="10%"></td>
+    </tr>
+  </table>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-top border-bottom">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown">GENERAL SERVICES</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Chat with Doctor</a></li>
+          <li><a class="dropdown-item" href="#">Report Manager</a></li>
+          <li><a class="dropdown-item" href="famili_health.html">Family Health Management</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown">EMERGENCY SERVICES</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Ambulance Service</a></li>
+          <li><a class="dropdown-item" href="quick_help.html">Quick Help</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown">FITNESS & MEAL PLANNER</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Diet Plans</a></li>
+          <li><a class="dropdown-item" href="#">Workout Plans</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">ONLINE DOCTOR</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="symptom.html">SYMPTOM CHECKER</a></li>
+      <li class="nav-item"><a class="nav-link fw-bold" href="#">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <main class="banner py-5 bg-info bg-opacity-10">
+    <section class="container-fluid page-wrapper">
+        <table width="100%">
+        <tr>
+            <td width="50%" align="center" valign="middle">
+                <section class="overlay-box">
+                    <h2 class="fw-bold text-dark">TakeCare</h2>
+                    <p>Your all-in-one digital health companion. Manage symptoms, track medication, consult doctors, and stay healthy with one simple app.</p>
+                    
+                  <a href="#" class="btn btn-primary">Explore Features →</a>
+                </section>
+              </td>              
+          <td width="50%" align="center">
+            <img src="D:\Semester 2\takecare main\images\doctorbio.avif" class="rounded shadow" alt="TakeCare Preview">
+          </td>
+        </tr>
+      </table>
+
+      <table class="mt-5" width="100%">
+        <tr>
+          <td width="50%" align="center">
+            <div class="video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal">
+              <img src="D:\Semester 2\takecare main\images\ss.png" class="rounded shadow" alt="Watch Video">
+              <img class="play-icon" src="https://cdn-icons-png.flaticon.com/512/727/727245.png" alt="Play Button">
+            </div>
+            <p><strong>Click to Watch How TakeCare Works</strong></p>
+          </td>
+          <td width="50%" valign="top" align="center">
+            <section class="features-box">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>🩺 Symptom Checker</strong></li>
+                <li class="list-group-item"><strong>📅 Doctor Appointments</strong></li>
+                <li class="list-group-item"><strong>💬 24/7 Doctor Chat</strong></li>
+                <li class="list-group-item"><strong>💊 Medication Reminders</strong></li>
+                <li class="list-group-item"><strong>🥗 Meal & Fitness Plans</strong></li>
+                <li class="list-group-item"><strong>🚑 Emergency Alerts</strong></li>
+                <li class="list-group-item"><strong>🧾 Medical Records</strong></li>
+                <li class="list-group-item"><strong>👨‍👩‍👧‍👦 Family Health Manager</strong></li>
+                <li class="list-group-item"><strong>🌐 Multilingual Support</strong></li>
+                <li class="list-group-item"><strong>🧠 Mental Health Resources</strong></li>
+                <li class="list-group-item"><strong>🛒 Medicine Delivery</strong></li>
+              </ul>
+            </section>
+          </td>          
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>&copy; 2025 TakeCare. All rights reserved.</footer>
+
+<!-- Video Modal -->
+<div class="modal fade" id="videoModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5>TakeCare in Action</h5>
+          <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <video id="popupVideo" class="w-100" controls poster="D:\Semester 2\takecare main\images\ss.png">
+            <source src="D:\Semester 2\takecare main\images\AI persona video for innovation and society.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Live Chat Button -->
+  <a href="#" class="chat-button" data-bs-toggle="modal" data-bs-target="#chatModal">Live Health Chat</a>
+  
+  <!-- Chatbot Modal -->
+  <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-sm">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white py-2">
+          <h5 class="modal-title" id="chatModalLabel">HealthBot</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="stop()"></button>
+        </div>
+        <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+          <div id="chatBox" class="mb-3">
+            <div class="text-muted small">🤖 Hello! How can I help you today?</div>
+          </div>
+          <input type="text" id="chatInput" class="form-control" placeholder="Type your message...">
+        </div>
+        <div class="modal-footer py-2">
+          <button type="button" class="btn btn-primary btn-sm" onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>  </body>
+</html>
